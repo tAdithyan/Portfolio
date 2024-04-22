@@ -6,4 +6,39 @@
 }
 body{
 
-  background-image: linear-gradient(to right,#2c2c2c , #bbb9b9);}
+  background-image: linear-gradient(to right,#2c2c2c , #8c8b8b);}
+  .navbar{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  .logo{
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex ;
+    margin-left: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+
+  }
+  .iteams{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 2rem;
+
+  }
+  .iteams a{
+    margin: 3rem;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all .5s ease; 
+  }
+  .iteams a:hover{
+    color:rgb(255, 192, 0);
+  }
