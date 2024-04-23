@@ -48,7 +48,7 @@ body{
   }
   /* body */
   .bodysection{
-    height: 100vh;
+    height: 30vh;
     padding-top: 10rem;
     padding: 25pc;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -85,7 +85,6 @@ body{
     line-height: 5rem;
     font-size: 2rem;
     top: 30rem;
-    position: fixed;
   }
 
 
@@ -156,7 +155,7 @@ body{
   }
   
   ul li:nth-child(2) a:before{
-    background: #55acee;
+    background: #111;
   }
   
   ul li:nth-child(3) a:before {
@@ -165,4 +164,30 @@ body{
   
   ul li:nth-child(4) a:before {
     background: #dd4b39;
+  }
+
+  /* about */
+  .about{
+    height: 30vh;
+    margin: 2rem;
+   
+  }
+  .about h2{
+    margin-left: 2rem;
+    font-size: 2.5rem;
+  }
+  .content{
+    display: flex;
+    justify-content: center; 
+     /* align-items: center; */
+     flex-direction: row;
+     margin: 2rem;
+     font-size: 1.4rem;
+  }
+  .arrow{
+    height: 2px;
+    width: 10rem;
+    background-color: rgb(255, 192, 0)  ;
+    margin-top: .5rem;
+    margin: .5rem;
   }
