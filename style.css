@@ -62,6 +62,9 @@ body{
     font-size: 3.5rem;
 
   }
+
+
+
   .bodysection button{
     height: 3rem;
     width: 8rem;
@@ -161,19 +164,17 @@ body{
     top: 0;
   }
   
-  ul li:nth-child(1) a:before{
-    background: #3b5999;
-  }
+ 
   
-  ul li:nth-child(2) a:before{
+  ul li:nth-child(1) a:before{
     background: #111;
   }
   
-  ul li:nth-child(3) a:before {
+  ul li:nth-child(2) a:before {
     background: #0077b5;
   }
   
-  ul li:nth-child(4) a:before {
+  ul li:nth-child(3) a:before {
     background: #dd4b39;
   }
 
