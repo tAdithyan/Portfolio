@@ -468,23 +468,58 @@ body{
   }
   .phone
   {
-    background-color: #3b5999;
+    background-image: linear-gradient(to right,#2c2c2c , #8c8b8b);
     height: 3rem;
     width: 20rem;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   cursor: pointer;
+   gap: 1rem;
+   border-radius: 5px;
+   color:rgb(255, 255, 255) ;
 
 
   }
   .mail
   {
-    background-color: #dd4b39;
+    background-image: linear-gradient(to right,#2c2c2c , #8c8b8b);
     height: 3rem;
     width: 20rem;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   cursor: pointer;
+   gap: 1rem;
+   border-radius: 5px;
+   color:rgb(255, 255, 255) ;
+
+
+
 
 
   }
   .location{
-    background-color: red;
+    background-image: linear-gradient(to right,#2c2c2c , #8c8b8b);
     height: 3rem;
     width: 20rem;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   cursor: pointer;
+   gap: 1rem;
+   border-radius: 5px;
+   color:rgb(255, 255, 255) ;
 
+
+
+
+  }
+  .phone:hover{
+    color:rgb(255, 192, 0) ;
+
+  }.mail:hover{
+    color:rgb(255, 192, 0) ;
+  }.location:hover{
+    color:rgb(255, 192, 0) ;
   }
