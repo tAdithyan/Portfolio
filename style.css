@@ -233,6 +233,9 @@ body{
     width: 200px;
     height: 250px;
     margin: 0 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -387,7 +390,9 @@ body{
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
-  
+  #contact a{
+    text-decoration: none;
+  }
   
   /************************ 
   Generic layout (demo looks)
